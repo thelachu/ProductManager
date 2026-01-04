@@ -1,0 +1,96 @@
+.search-container {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.modal-title {
+  text-align: center;
+}
+.search-box {
+  background: #fff;
+  width: 420px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+
+.form-row {
+  display: flex;
+  gap: 12px;
+}
+
+.form-row .form-group {
+  flex: 1;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+input {
+  height: 38px;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+  overflow-y: auto;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+.error-text {
+  font-size: 12px;
+  color: red;
+  margin-top: 4px;
+}
+
+input:invalid:not(:focus) + .error-text {
+  display: block;
+}
+
+input:invalid:not(:focus) {
+  border-color: red;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.cancel-btn {
+  background: var(--cancel-color);
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.save-btn {
+  background: var(--black-color);
+  color: var(--white-color);
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+:root {
+  --bg-1: hsl(0, 0%, 96%);
+  --border-color: hsl(0, 0%, 85%);
+  --black-color: hsl(0, 0%, 0%);
+  --white-color: hsl(0, 0%, 100%);
+  --hover-color: hsl(0, 0%, 80%);
+  --cancel-color: hsl(0, 0%, 93%);
+  --td-color: hsl(0, 0%, 93%);
+  --table-hover-color: hsl(0, 0%, 98%);
+}

@@ -1,0 +1,187 @@
+main {
+  padding: 20px;
+}
+
+.list-products-container {
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.products-table thead {
+  background: var(--bg-1);
+}
+
+.products-table th {
+  text-align: left;
+  padding: 12px;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.products-table td {
+  padding: 12px;
+  border-bottom: 1px solid var(--td-color);
+  color: #444;
+}
+
+.products-table tbody tr:hover {
+  background: var(--table-hover-color);
+}
+
+.products-table td span {
+  background: var(--td-color);
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.action-btns {
+  display: flex;
+  gap: 8px;
+}
+.action-btns .edit-btn img {
+  width: 22px;
+  height: 22px;
+}
+.action-btns .delete-btn img {
+  width: 22px;
+  height: 22px;
+}
+
+.edit-btn {
+  width: 28px;
+  height: 28px;
+  border: 1px solid hsl(0, 0%, 80%);
+  background: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.empty-state {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
+
+.empty-state img {
+  width: 180px;
+  opacity: 0.8;
+}
+
+.empty-state p {
+  margin-top: 12px;
+  font-size: 16px;
+}
+
+.edit-btn:hover {
+  background: #f0f0f0;
+}
+
+.delete-btn {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-btn:hover {
+  border-color: #ff4d4d;
+}
+@media (max-width: 600px) {
+  main {
+    padding: 8px;
+  }
+
+  .table-container {
+    overflow-x: auto;
+  }
+
+  .products-table {
+    font-size: 12px;
+    min-width: 720px;
+    border-collapse: collapse;
+  }
+
+  .products-table th,
+  .products-table td {
+    padding: 8px;
+    white-space: nowrap;
+  }
+
+  .products-table thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .products-table td span {
+    font-size: 11px;
+    padding: 3px 6px;
+  }
+
+  .action-btns {
+    gap: 6px;
+  }
+
+  .edit-btn,
+  .delete-btn {
+    width: 26px;
+    height: 26px;
+  }
+
+  .action-btns img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .empty-state {
+    height: 50vh;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .empty-state img {
+    width: 130px;
+  }
+
+  .empty-state p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .products-table {
+    font-size: 13px;
+  }
+
+  .products-table th,
+  .products-table td {
+    padding: 10px;
+  }
+
+  .products-table {
+    min-width: 800px;
+  }
+}
