@@ -1,16 +1,24 @@
-# React + Vite
+Product Management App – Frontend Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live GitHub Link:
+https://github.com/thelachu/ProductManager
 
-Currently, two official plugins are available:
+Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Product List Display: Products are shown in both list (table) and card (grid) views.
 
-## React Compiler
+View Toggle: Users can switch between list view and grid view easily.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Search with Debounce: Real-time product search by name with 500ms debounce.
 
-## Expanding the ESLint configuration
+Add Product: New products can be added using a validated form.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Edit Product: Existing products can be updated with pre-filled form data.
+
+Delete Product: Individual products can be deleted without affecting others.
+
+Pagination: Products are paginated and work correctly with search results.
+
+In-Memory Data: All product data is stored and managed in memory only.
+
+Responsive UI: Layout adapts smoothly for mobile, tablet, and desktop screens.
