@@ -1,7 +1,7 @@
 Product Management App – Frontend Assignment
 
 Live GitHub Link:
-https://github.com/thelachu/ProductManager
+https://github.com/thelachu/ProductManager/
 
 Features
 
