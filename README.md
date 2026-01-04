@@ -1,4 +1,4 @@
-Product Management App – Frontend Assignment
+Product Management App
 
 Live Link:
 [https://github.com/thelachu/ProductManager/](https://thelachu.github.io/ProductManager/)
