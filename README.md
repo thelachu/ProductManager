@@ -3,7 +3,7 @@ Product Management App – Frontend Assignment
 Live GitHub Link:
 https://github.com/thelachu/ProductManager
 
-Features:
+Features
 
 Product List Display: Products are shown in both list (table) and card (grid) views.
 
